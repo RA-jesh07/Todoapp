@@ -16,7 +16,7 @@ function AddTodo({ onAdd }) {
         type="text" 
         value={title} 
         onChange={(e) => setTitle(e.target.value)} 
-        placeholder="Add s a new task" 
+        placeholder="Add sf a new task" 
       />
       <button type="submit">Add</button>
     </form>
